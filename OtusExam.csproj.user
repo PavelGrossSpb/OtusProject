@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Actions.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Claims.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="IncomingPayment.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="NewSupplyDlg.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PaymentAct.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Suppliers.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SuppliesWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TariffsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TranshesWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Actions.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Claims.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="IncomingPayment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="NewSupplyDlg.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PaymentAct.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Suppliers.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SuppliesWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TariffsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TranshesWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
